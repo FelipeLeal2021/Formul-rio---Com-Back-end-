@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Endereço</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro de Endereço</h2>
+    <form action="http://localhost:3000/enviar-email" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado" name="estado" required>
+
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
